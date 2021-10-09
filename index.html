@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Drag n Drop</title>
+
+	<link rel="stylesheet" href="main.css" />
+</head>
+<body>
+	<div class="app">
+		<header>
+			<h1>Список задач</h1>
+		</header>
+		<div class="createList">
+			<input type="text" id="textList" placeholder="Имя задачи" />
+			<input type="button" id="newButton" value="Добавить задачу" />
+		</div>
+		<div class="lists">
+			<div class="list active"><h3>Понедельник</h3>
+				<div class="list-item" draggable="true">Задача 1</div>
+				<div class="list-item" draggable="true">Задача 2</div>
+				<div class="list-item" draggable="true">Задача 3</div>
+			</div>
+			<div class="list"><h3>Вторник</h3></div>
+			<div class="list"><h3>Среда</h3></div>
+			<div class="list"><h3>Четверг</h3></div>
+			<div class="list"><h3>Пятница</h3></div>
+			<div class="list"><h3>Суббота</h3></div>
+			<div class="list"><h3>Воскресенье</h3></div>
+
+		</div>
+		
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>
